@@ -1,6 +1,7 @@
 %% Inverse Laplace Transform
 syms t
 
-f6 = (7)/(s^2+6)
-F6 = laplace(f6)
-pretty(F6)
+syms s
+F6 = (7)/(s^2+6)
+f6 = ilaplace (F6)
+pretty(f6)
