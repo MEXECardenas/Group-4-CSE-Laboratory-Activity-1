@@ -1,0 +1,6 @@
+%% Assignment 2 Inverse Laplace
+
+syms s t;
+
+F1 = sym ();
+pretty(F1)
